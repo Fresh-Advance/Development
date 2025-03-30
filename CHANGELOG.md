@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [v4.3.0] - Unreleased
+
+### Added
+- SSL is enabled and preconfigured by default (import the `containers/httpd/certs/fresh_advance_localhost_ca.crt` authority to your browser to trust the certificates)
+
 ## [v4.2.0] - 2025-02-19
 
 ### Added
@@ -147,6 +152,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [v1.0.0] - 2019-10-23
 
+[v4.3.0]: https://github.com/Sieg/development/compare/v4.2.0...v4.3.0
 [v4.2.0]: https://github.com/Sieg/development/compare/v4.1.0...v4.2.0
 [v4.1.0]: https://github.com/Sieg/development/compare/v4.0.0...v4.1.0
 [v4.0.0]: https://github.com/Sieg/development/compare/v3.2.0...v4.0.0

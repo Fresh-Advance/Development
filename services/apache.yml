@@ -6,3 +6,4 @@
       - ./source:/var/www
     ports:
       - 80:80
+      - 443:443
