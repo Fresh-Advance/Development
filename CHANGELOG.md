@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [v4.3.0] - Unreleased
+## [v4.3.0] - 2025-03-31
 
 ### Added
 - SSL is enabled and preconfigured by default (import the `containers/httpd/certs/fresh_advance_localhost_ca.crt` authority to your browser to trust the certificates)
