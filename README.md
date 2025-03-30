@@ -9,6 +9,7 @@ For the start:
 
 * Apache 2.4 (based on original httpd:2.4-alpine container)
   * SSL is enabled and preconfigured by default (import the `containers/httpd/certs/fresh_advance_localhost_ca.crt` authority to your browser to trust the certificates)
+  * HTTP/2 is enabled by default
 * PHP 7.4 / 8.0 / 8.1 / 8.2 / 8.3 / 8.4 fpm (based on original php:x.x-fpm containers) with:
   * composer 2
   * xDebug 3 with remote debug and profiler preconfigured

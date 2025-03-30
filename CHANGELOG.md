@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 - SSL is enabled and preconfigured by default (import the `containers/httpd/certs/fresh_advance_localhost_ca.crt` authority to your browser to trust the certificates)
+- Enable the HTTP/2 by default
 
 ## [v4.2.0] - 2025-02-19
 
